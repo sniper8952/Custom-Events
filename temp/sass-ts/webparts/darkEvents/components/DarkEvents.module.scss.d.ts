@@ -1,0 +1,38 @@
+declare interface IStyles {
+  root: string;
+  header: string;
+  addEventRow: string;
+  addEvent: string;
+  addEventDisabled: string;
+  addEventIcon: string;
+  carousel: string;
+  track: string;
+  card: string;
+  imageLink: string;
+  image: string;
+  imageFallback: string;
+  imageShade: string;
+  dateBadge: string;
+  content: string;
+  category: string;
+  siteName: string;
+  title: string;
+  spacer: string;
+  meta: string;
+  location: string;
+  hiddenRow: string;
+  footer: string;
+  calendarLink: string;
+  calendarPlusIcon: string;
+  arrow: string;
+  arrowIcon: string;
+  arrowLeft: string;
+  arrowRight: string;
+  dots: string;
+  dot: string;
+  dotActive: string;
+  status: string;
+  error: string;
+}
+declare const styles: IStyles;
+export default styles;

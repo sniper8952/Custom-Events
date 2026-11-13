@@ -1,0 +1,32 @@
+declare interface IStyles {
+  root: string;
+  header: string;
+  carousel: string;
+  track: string;
+  card: string;
+  imageLink: string;
+  image: string;
+  imageFallback: string;
+  imageShade: string;
+  dateBadge: string;
+  content: string;
+  siteName: string;
+  category: string;
+  title: string;
+  spacer: string;
+  meta: string;
+  location: string;
+  footer: string;
+  calendarLink: string;
+  calendarPlusIcon: string;
+  arrow: string;
+  arrowLeft: string;
+  arrowRight: string;
+  dots: string;
+  dot: string;
+  dotActive: string;
+  status: string;
+  error: string;
+}
+declare const styles: IStyles;
+export default styles;

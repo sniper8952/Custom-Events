@@ -1,0 +1,154 @@
+{
+  "id": "b67c2b1e-5b5f-4f66-8c79-4ae81a5f9d20",
+  "alias": "DarkEventsWebPart",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "1bc7927e-4a5e-4520-b540-71305c79c20a",
+      "group": {
+        "default": "News, people and events"
+      },
+      "title": {
+        "default": "Custom Events",
+        "de-de": "Ereignisse Benutzerdefiniert"
+      },
+      "description": {
+        "default": "Custom SharePoint Events Web Part",
+        "de-de": "Benutzerdefiniertes SharePoint Ereignis-Webpart"
+      },
+      "officeFabricIconFontName": "Event",
+      "properties": {
+        "sourceMode": "currentList",
+        "selectedListId": "",
+        "selectedSites": [],
+        "numberOfEvents": 8,
+        "showPastEvents": false,
+        "showWebPartTitle": true,
+        "webPartTitle": "",
+        "showSiteName": true,
+        "showCategory": true,
+        "cardSizePercent": "98",
+        "imageHeightPercent": "100",
+        "imageFocusXPercent": "50",
+        "imageFocusYPercent": "50",
+        "backgroundColor": "transparent",
+        "cardBackgroundColor": "#1F1F1F",
+        "webPartTitleColor": "#1F1F1F",
+        "addEventColor": "#000000",
+        "addEventDisabledColor": "#D3D3D3",
+        "categoryColor": "#FFFFFF",
+        "siteTitleColor": "#9EA500",
+        "eventTitleColor": "#FFFFFF",
+        "eventDateColor": "#FFFFFF",
+        "locationColor": "#9EA500",
+        "calendarIconColor": "#9EA500",
+        "paginationColor": "#000000",
+        "fallbackImageUrl": ""
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "dark-events-web-part",
+    "scriptResources": {
+      "dark-events-web-part": {
+        "type": "path",
+        "path": "dark-events-web-part_77096e21b68670d7d27c.js"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "18.3.1"
+      },
+      "react-dom/client": {
+        "type": "component",
+        "id": "3cadd7f5-5449-49c4-a153-1beb8facd90a",
+        "version": "18.3.1"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.24.0"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.24.0"
+      },
+      "@microsoft/sp-component-base": {
+        "type": "component",
+        "id": "467dc675-7cc5-4709-8aac-78e3b71bd2f6",
+        "version": "1.24.0"
+      },
+      "@microsoft/sp-page-context": {
+        "type": "component",
+        "id": "1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8",
+        "version": "1.24.0"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "18.3.1"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.24.0"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.24.0"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.24.0"
+      },
+      "PropertyControlStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "ar-SA": "PropertyControlStrings_ar-sa_8a8cf501b3e26853f8cfc7e5e8e3f24d.js",
+          "bg-BG": "PropertyControlStrings_bg-bg_870e8a76da33e66ba03b527706f1d397.js",
+          "ca-ES": "PropertyControlStrings_ca-es_3a50d5ab0c9e909f8d7b2b7bcf7f7b0f.js",
+          "cs-CZ": "PropertyControlStrings_cs-cz_bedafe348f6c64e29c9eb805b65b23ab.js",
+          "da-DK": "PropertyControlStrings_da-dk_901786592ae8b3b0c4adfbddf97d0f9d.js",
+          "de-DE": "PropertyControlStrings_de-de_ca7e56f68164ae9153dfdc9325a2f9ac.js",
+          "el-GR": "PropertyControlStrings_el-gr_92df40871578a4cdc2fa3042d88d53d6.js",
+          "en-GB": "PropertyControlStrings_en-gb_ad6e343fad66551dcdf11cadf73ef2cd.js",
+          "en-US": "PropertyControlStrings_en-us_b343e345b046a14cf1d908c714f1fd09.js",
+          "es-ES": "PropertyControlStrings_es-es_23cc06af78d86af8639a2c1824856425.js",
+          "et-EE": "PropertyControlStrings_et-ee_8fc28d4a9e24c9aa2af795c1208e89da.js",
+          "fi-FI": "PropertyControlStrings_fi-fi_0e78125b717cdd745c8716a44ab4b868.js",
+          "fr-FR": "PropertyControlStrings_fr-fr_6a0fa27a7453aeeca46cf335c04cf5be.js",
+          "it-IT": "PropertyControlStrings_it-it_231b61e1ede1e4832a7b1a78cc385c84.js",
+          "ja-JP": "PropertyControlStrings_ja-jp_7b899d470961d99be173069d25f10a6a.js",
+          "lt-LT": "PropertyControlStrings_lt-lt_9f1f242489c5be15fd3be0935c33d806.js",
+          "lv-LV": "PropertyControlStrings_lv-lv_bba505f9d416269e6c6978b50c3f3c3a.js",
+          "nb-NO": "PropertyControlStrings_nb-no_a56e29cb70f3fbef6ee16c26a7933b52.js",
+          "nl-NL": "PropertyControlStrings_nl-nl_e2b514f771e6e1b0f313b4a305140999.js",
+          "no": "PropertyControlStrings_no_903d832ef5fa6d58b4332478daafcbc6.js",
+          "pl-PL": "PropertyControlStrings_pl-pl_fc5a682509b023bc35eb6e31c02d2e45.js",
+          "pt-PT": "PropertyControlStrings_pt-pt_046680fd5a8aff1fc4bf5c0c5a9db69b.js",
+          "ro-RO": "PropertyControlStrings_ro-ro_a19ad8f12afeda67e0ca785ec6e0471c.js",
+          "ru-RU": "PropertyControlStrings_ru-ru_72cebcbdbd4f4fa8f6fee493b6dafca6.js",
+          "sk-SK": "PropertyControlStrings_sk-sk_ffa5807381208cf8632c15506fbaf131.js",
+          "sr-Latn-RS": "PropertyControlStrings_sr-latn-rs_13a455824ac5e9f7b34c84ed38b51deb.js",
+          "sv-SE": "PropertyControlStrings_sv-se_49648cabbd0a8ee039e242d014b2b965.js",
+          "tr-TR": "PropertyControlStrings_tr-tr_721ee883deec14085e1664a67edcc3e1.js",
+          "vi-VN": "PropertyControlStrings_vi-vn_b5b13bd5fda980a36c743613204cb763.js",
+          "zh-CN": "PropertyControlStrings_zh-cn_1e1b69ae2134c426e7837009e6d3af8a.js",
+          "zh-TW": "PropertyControlStrings_zh-tw_5c132310a6d9a56314820ef1aeb6125e.js"
+        },
+        "defaultPath": "PropertyControlStrings_en-us_b343e345b046a14cf1d908c714f1fd09.js"
+      }
+    }
+  }
+}

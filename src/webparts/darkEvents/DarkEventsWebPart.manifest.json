@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b67c2b1e-5b5f-4f66-8c79-4ae81a5f9d20",
+  "alias": "DarkEventsWebPart",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "1bc7927e-4a5e-4520-b540-71305c79c20a",
+      "group": {
+        "default": "News, people and events"
+      },
+      "title": {
+        "default": "Custom Events", 
+        "de-de": "Ereignisse Benutzerdefiniert"
+      },
+      "description": {
+        "default": "Custom SharePoint Events Web Part",
+        "de-de": "Benutzerdefiniertes SharePoint Ereignis-Webpart"
+      },
+      "officeFabricIconFontName": "Event",
+      "properties": {
+        "sourceMode": "currentList",
+        "selectedListId": "",
+        "selectedSites": [],
+
+        "numberOfEvents": 8,
+        "showPastEvents": false,
+
+        "showWebPartTitle": true,
+        "webPartTitle": "",
+
+        "showSiteName": true,
+        "showCategory": true,
+
+        "cardSizePercent": "98",
+        "imageHeightPercent": "100",
+        "imageFocusXPercent": "50",
+        "imageFocusYPercent": "50",
+
+        "backgroundColor": "transparent",
+        "cardBackgroundColor": "#1F1F1F",
+
+        "webPartTitleColor": "#1F1F1F",
+        "addEventColor": "#000000",
+        "addEventDisabledColor": "#D3D3D3",
+
+        "categoryColor": "#FFFFFF",
+        "siteTitleColor": "#9EA500",
+        "eventTitleColor": "#FFFFFF",
+        "eventDateColor": "#FFFFFF",
+        "locationColor": "#9EA500",
+        "calendarIconColor": "#9EA500",
+        "paginationColor": "#000000",
+
+        "fallbackImageUrl": ""
+      }
+    }
+  ]
+}

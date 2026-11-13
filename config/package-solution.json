@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Ereignisse Benutzerdefiniert",
+    "id": "f26d72ce-4554-4b42-ba57-792d413347e1",
+    "version": "2.4.8.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.24.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Custom Events"
+      },
+      "longDescription": {
+        "default": "Custom Events"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Custom Events",
+        "description": "Custom Events Webpart",
+        "id": "17696099-688c-4a85-b083-eb786f56bea1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/Custom-Events.sppkg"
+  }
+}

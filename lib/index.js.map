@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":";AAAA,qFAAqF","sourcesContent":["// Entry point intentionally empty. SPFx discovers the web part through its manifest.\n"]}
